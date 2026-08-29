@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DESERT5000 Simulation Output",
+  "type": "object",
+  "required": [
+    "years_advanced",
+    "new_world_state",
+    "environment_events",
+    "observation",
+    "uncertainties",
+    "evidence_used"
+  ],
+  "properties": {
+    "years_advanced": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "new_world_state": {
+      "type": "object"
+    },
+    "environment_events": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "observation": {
+      "type": "string"
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_used": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

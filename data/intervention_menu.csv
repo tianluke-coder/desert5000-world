@@ -1,0 +1,10 @@
+﻿action,simulated_cost_usd,possible_effect,tradeoff_or_uncertainty,data_type
+水资源调查,300,获得部分水资源信息,没有直接增加植被,CLASSROOM_ASSUMPTION
+土壤调查,200,获得部分土壤与稳定性信息,没有直接增加植被,CLASSROOM_ASSUMPTION
+草方格/沙障固沙,600,降低部分区域风蚀、帮助固定流沙,短期不一定出现明显绿色,CLASSROOM_ASSUMPTION
+种草,400,尝试增加地表植被覆盖,受水分、风、土壤影响,CLASSROOM_ASSUMPTION
+种灌木,700,尝试建立较耐旱的固沙植被,仍需考虑水分和密度,CLASSROOM_ASSUMPTION
+种乔木,1000,尝试建立乔木层,水分需求和长期竞争可能成为问题,CLASSROOM_ASSUMPTION
+5年维护计划,350,提高后续补种、检查和维护能力,不能抵消极端环境风险,CLASSROOM_ASSUMPTION
+社区协作,300,尝试提升当地参与和长期维护能力,参与效果存在不确定性,CLASSROOM_ASSUMPTION
+运输/道路改善,800,降低后续材料与苗木运输困难,短期生态效果不明显,CLASSROOM_ASSUMPTION

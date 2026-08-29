@@ -1,0 +1,30 @@
+{
+  "model_name": "请命名你的DESERT 5000",
+  "student_question": "你最想研究什么？",
+  "time_horizons_years": [
+    5,
+    10,
+    20
+  ],
+  "variables": [
+    {
+      "name": "",
+      "why_it_matters": "",
+      "evidence": "",
+      "visible_to_player": true,
+      "initial_value": null
+    }
+  ],
+  "relationships": [
+    {
+      "from": "",
+      "to": "",
+      "hypothesis": "",
+      "confidence": "low|medium|high"
+    }
+  ],
+  "unknowns": [],
+  "player_actions": [],
+  "success_definition": "不要只写树木数量。请自己定义什么叫“更好的未来”。",
+  "data_type": "STUDENT_MODEL"
+}

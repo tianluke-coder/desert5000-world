@@ -1,0 +1,61 @@
+{
+  "id": "D5000-CLASSROOM-01",
+  "data_type": "CLASSROOM_ASSUMPTION",
+  "description": "用于课程建模的虚拟荒漠地块，不代表殷玉珍真实地块。",
+  "start_year": 2000,
+  "simulation_horizon_years": 20,
+  "area_acres": 100,
+  "budget_usd_simulated": 5000,
+  "known_conditions": {
+    "climate_type": "参考毛乌素沙地的温带半干旱环境",
+    "vegetation_cover_initial_percent": 8,
+    "accessibility": "一般"
+  },
+  "zones": [
+    {
+      "zone": "A",
+      "name": "流动沙丘",
+      "area_acres": 35,
+      "visible_vegetation": "很少",
+      "wind_exposure": "高",
+      "soil_surface": "松散",
+      "water": "未知，需调查"
+    },
+    {
+      "zone": "B",
+      "name": "半固定沙丘",
+      "area_acres": 30,
+      "visible_vegetation": "少量",
+      "wind_exposure": "中高",
+      "soil_surface": "部分稳定",
+      "water": "未知，需调查"
+    },
+    {
+      "zone": "C",
+      "name": "丘间低地",
+      "area_acres": 20,
+      "visible_vegetation": "相对较多",
+      "wind_exposure": "中",
+      "soil_surface": "相对稳定",
+      "water": "可能与其他区域不同，需调查"
+    },
+    {
+      "zone": "D",
+      "name": "居民点边缘",
+      "area_acres": 15,
+      "visible_vegetation": "零散",
+      "wind_exposure": "中",
+      "soil_surface": "受人类活动影响",
+      "water": "未知",
+      "human_access": "高"
+    }
+  ],
+  "unknowns": [
+    "各区域真实地下水深度",
+    "未来20年天气",
+    "不同植物在本虚拟地块上的真实成活率",
+    "居民是否愿意长期参与",
+    "病虫害发生时间",
+    "长期维护能力"
+  ]
+}
